@@ -1,10 +1,5 @@
-# Raw data — likely large, don't commit
-Data/*.tsv
-Data/*.csv
-Data/*.h5ad
-
-# Trained models — can be large binary blobs
-Models/**/*.pkl
+# Raw data - too large for git (~1GB), not committed
+Data/batch_corrected_expression_with_celltypes.tsv
 
 # Env / OS junk
 .ipynb_checkpoints/
@@ -13,6 +8,3 @@ __pycache__/
 .DS_Store
 .venv/
 env/
-
-# Jupyter
-.ipynb_checkpoints
