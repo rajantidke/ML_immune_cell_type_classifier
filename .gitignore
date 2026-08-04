@@ -1,0 +1,18 @@
+# Raw data — likely large, don't commit
+Data/*.tsv
+Data/*.csv
+Data/*.h5ad
+
+# Trained models — can be large binary blobs
+Models/**/*.pkl
+
+# Env / OS junk
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
